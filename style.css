@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(27, 57, 95);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .center {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    padding: 13px;
+  }
+  
+  textarea {
+    margin: auto;
+    background-color: #4f688a;
+    display: block; 
+    width: 50%; 
+  }
+  
+  h1 {
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    font-size: 60px;
+  }
+  
+  #btnResetar {
+    margin-left: 70%;
+    margin-top: 15px;
+    display: block; 
+    font-size: 22px;
+    max-width: 100px;
+    max-height: 150px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+.desativar{
+    background-color: rgb(86, 90, 94);
+}
+
+.frase{
+    border: 5px solid black;
+    max-width: 880px;
+    height: 100px;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.campo-correto{
+    border: 5px solid green;
+}
+
+.campo-errado{
+    border: 5px solid red;
+}
+
+
+
+
+
+/* Estilos para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(7, 39, 66);
+
+}
+
+
+.placar h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+th {
+  background-color: #353434;
+  font-weight: bold;
+}
+
+#lixeira{
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jogo de escrever com tempo</h1>
+    <P class="frase center " >comer jabuticaba no pé é bom.</P>
+
+    <ul class="informações center">
+        <li>
+            <i class="material-icons">assignment</i>
+            <span  id="tamanho_frase" >30</span> 
+        </li>
+
+
+        <li>
+            <i class="material-icons">timer</i>
+            <span id="tempo" >10</span> Segundos
+        </li>
+    </ul>
+
+    <textarea name="campo-digitacao" id="campo-digitacao" cols="130" rows="10"></textarea>
+    
+    
+    <div class="botoes">
+        <a id="btnResetar" class="btn-floating btn-big waves-effect waves-light red"><i class="material-icons">restore</i></a>
+
+    </div>
+
+    <ul class="center">
+        <li ><span id="cont-carcater" >0</span> caracters</li>
+        <li><span id="cont-palavras" >0</span> Palavras</li>
+
+        <section class="placar">
+            <h3 class="center">Placar</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Numero de palavras</th>
+                        <th>Remover</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </section>
+    </ul>
+
+    <script src="jquery.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
