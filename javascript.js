@@ -1,8 +1,13 @@
+const frases = require('./frases.js')
+console.log(frases)
+
 contarTempo()
 inciador()
 botaoFunciona()
 verSeTacerto()
 limpar()
+mostrarPlacar()
+trocarFrase()
 var tempoInic = $("#tempo").text();
 
 
@@ -91,9 +96,25 @@ function recorde() {
     $("tbody").prepend('<tr>  <td>' + usuario +'</td>   <td>' + numPalavras + '</td> <td> <i class="material-icons lixeira">delete</i> </td> </tr>');
   }
   
-  function limpar() {
+function limpar() {
     $("tbody").on("click", ".lixeira", function() {
       $(this).closest("tr").remove();
     });
-  }
+}
   
+function mostrarPlacar(){
+    $("#btnLimpar").click(function(){
+        $("#placarDois").stop().toggle()
+    })
+
+    var placarPosicao = $("#placarDois").offset().top;
+    $("body").animate({
+        scrollTop: placarPosicao+"px"
+    },1000)
+}
+
+function trocarFrase(){
+    $("#btnTrocar").click(function(){
+        console.log(frases);
+    })
+}

@@ -14,31 +14,53 @@
     padding: 13px;
   }
   
-  textarea {
-    margin: auto;
-    background-color: #4f688a;
-    display: block; 
-    width: 50%; 
-  }
+textarea {
+  margin: auto;
+  background-color: #4f688a;
+  display: block; 
+  width: 50%; 
+  min-height: 200px;
+  min-width: 300px;
+  max-height: 400px;
+  max-width: 900px;
+}
   
-  h1 {
-    align-items: center;
-    text-align: center;
-    padding: 5%;
-    font-size: 60px;
-  }
+h1 {
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  font-size: 60px;
+}
   
-  #btnResetar {
-    margin-left: 70%;
-    margin-top: 15px;
-    display: block; 
-    font-size: 22px;
-    max-width: 100px;
-    max-height: 150px;
-    width: 100px;
-    cursor: pointer;
-  }
+#btnResetar {
+  margin-left: 70%;
+  margin-top: 15px;
+  display: block; 
+  font-size: 22px;
+  max-width: 100px;
+  max-height: 150px;
+  width: 100px;
+  cursor: pointer;
+}
   
+#btnTrocar{
+  margin-left: 70%;
+  margin-top: 15px;
+  font-size: 22px;
+  max-width: 100px;
+  max-height: 150px;
+  width: 100px;
+  cursor: pointer;
+}
+#btnLimpar{
+  margin-left: 70%;
+  margin-top: 15px;
+  font-size: 22px;
+  max-width: 100px;
+  max-height: 150px;
+  width: 100px;
+  cursor: pointer;
+}
 .desativar{
     background-color: rgb(86, 90, 94);
 }
@@ -97,3 +119,8 @@ th {
 #lixeira{
   cursor: pointer;
 }
+
+.placar{
+  display: none;
+}
+
